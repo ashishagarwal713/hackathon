@@ -1,0 +1,45 @@
+@media (min-width: 576px){
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1280px){
+    .container {
+        max-width: 1280px;
+    }
+}
+
+.appContainer{
+    height:-webkit-fill-available;
+}
+
+.navbar-right{
+    justify-content: flex-end;
+}
+
+.appBackground{
+    background-image: url("../assets/Filler_Pattern_L_Wide1.png");
+    background-repeat: no-repeat, repeat;
+    background-position-x: 75%;
+    background-position-y: 95%;
+    background-size: 40vw;
+    /* background-image: url("../assets/Logo_ND.svg");
+    background-repeat: no-repeat, repeat;
+    background-position: center; */
+}
+
+.logo{
+    height: 2rem;
+    padding-right: 1rem;
+}
+
+.nopadding{
+    padding: 0px;
+}
