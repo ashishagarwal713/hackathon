@@ -10,11 +10,17 @@ export class ResultsComponent implements OnInit {
 
   @ViewChild('searchText') searchText:ElementRef;
   resultset: any = [];
+  resultsService:ResultsService
 
-  constructor(private resultsService: ResultsService) {}
+  jira:boolean=false;
+
+  constructor(resultsService: ResultsService) {
+    this.resultsService=resultsService;
+  }
 
   ngOnInit() {
     this.resultset = this.resultsService.getResultset();
+    this.jira=true;
   }
 
   findResults(){
@@ -25,4 +31,11 @@ export class ResultsComponent implements OnInit {
     })
   }
 
+  toggleOptions(value:string){
+    console.log(value);
+    if(value=='jira' )
+      this.jira=true;
+    else
+      this.jira=false;   
+  }
 }

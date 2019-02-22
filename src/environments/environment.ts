@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseServiceUrl:''
+  baseServiceUrl:'https:localhost:8081/search/'
 };
 
 /*

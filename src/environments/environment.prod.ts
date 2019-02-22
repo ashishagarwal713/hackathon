@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  baseServiceUrl:'https:localhost:8081/search/'
+
 };

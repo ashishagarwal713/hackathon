@@ -12,8 +12,11 @@ export class HomeComponent implements OnInit {
   @ViewChild('searchText') searchText:ElementRef;
 
   resultset:any=[];
+  resultsService:ResultsService;
 
-  constructor(private router: Router, private resultsService:ResultsService) { }
+  constructor(private router: Router,  resultsService:ResultsService) { 
+    this.resultsService=resultsService;
+  }
 
   ngOnInit() {
   }

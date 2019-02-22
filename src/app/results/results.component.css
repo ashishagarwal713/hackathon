@@ -46,14 +46,19 @@
     transition-delay: 0.2s;
     transition-property: box-shadow;
     transition-duration: 0.3s;
+    cursor: pointer;
+
 }
 
 .resultCard:hover{
     box-shadow: 1px 1px 4px 0px #888888;
+    cursor: pointer;
 }
 
 .summary{
     line-height: normal;
+    cursor: pointer;
+
 }
 
 .parameterBox{
@@ -64,8 +69,46 @@
     color: #333333;
     background: aliceblue;
     margin-right: 1vw;
+    cursor: pointer;
+
 }
 
 .resultContainer{
     margin-top: 2vh;
+}
+
+.sourceoptions{
+    border-bottom: 1px solid #9999995a;
+}
+
+
+
+.option{
+    padding:0 16px;
+    /* border-bottom: 1px solid #9999995a; */
+    /* border-radius: 3px; */
+    margin-top: 2vh;
+    margin-bottom:0;
+    margin-left: 3vh;
+    cursor: pointer;
+}
+.active{
+    color: blue;
+    border-bottom: 2px solid blue;
+
+}
+
+.red{
+    background-color: #FFE5E5;
+    color:#c3002f;
+    
+
+}
+.yellow{
+    background-color: #FFFBE6;
+    color:#D69D00; 
+}
+.green{
+    background-color: #E5F9EF;
+    color:#00C468; 
 }
