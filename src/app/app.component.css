@@ -43,3 +43,11 @@
 .nopadding{
     padding: 0px;
 }
+.nomargin{
+    margin:0;
+}
+
+html,body{
+    font-family: nissanR;
+}
+

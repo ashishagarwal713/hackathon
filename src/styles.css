@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*Font declaration*/
+@font-face {
+    font-family: nissanB;
+    src: url("../src/assets/fonts/NissanBrandBold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: nissanR;
+    src: url("../src/assets/fonts/NissanBrandRegular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: nissanL;
+    src: url("../src/assets/fonts/NissanBrandLight.otf") format("truetype");
+}
+
+.h3,h3{
+    font-family: nissanB;
+}
+
+.h4,h4{
+    font-family: nissanB;
+}
+.h5,h5{
+    font-family:nissanB;
+}
+
+html{
+    font-family: nissanR;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	/* background-color: #cecece; */
+  }

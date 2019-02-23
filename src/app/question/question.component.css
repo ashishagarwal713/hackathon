@@ -1,0 +1,45 @@
+@media (min-width: 576px){
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1280px){
+    .container {
+        max-width: 1280px;
+    }
+}
+
+.paddingTop2rem{
+    padding-top: 2rem
+}
+
+.paddingRight1rem{
+    padding-right: 1rem;
+}
+
+.paddingBottom1rem{
+    padding-bottom:1rem;
+}
+
+.fullWidth{
+    width: 100%;
+}
+
+select {
+    border-radius: 4px;
+}
+
+textarea{
+    border-radius: 4px;
+}
+
+input{
+    /* border-radius: 4px; */
+}
